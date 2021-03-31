@@ -1,0 +1,39 @@
+.started{
+  width: 55%;
+
+  margin: 2rem auto;
+
+  text-align: center;
+}
+
+.started__img{
+  width: 90%;
+}
+
+.started__title{
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.375rem;
+
+  color: var(--neutral);
+}
+
+.started__paragraph{
+  margin-top: 1rem;
+
+  font-size: 1rem;
+  font-weight: 400;
+
+  color: var(--neutral);
+}
+
+.started__button{
+  width: 35%;
+  height: 3rem;
+  margin-top: 1rem;
+
+  color: var(--neutral);
+  background: linear-gradient(45deg, var(--ctaCYAN), var(--ctaBlue));
+
+  border: 0;
+  border-radius: 50px;
+}
