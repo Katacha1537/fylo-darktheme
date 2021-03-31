@@ -8,6 +8,7 @@
   --ctaBlue: hsl(198, 60%, 50%);
   --errorRed:  hsl(0, 100%, 63%);
   --neutral: hsl(0, 0%, 100%);
+  --text: hsl(0, 0%, 72%);
 }
 
 *{
@@ -26,6 +27,12 @@ header, button{
 }
 
 .container{
-  width: 90%;
+  width: 75%;
   margin: 1rem auto;
+}
+
+.info{
+  background: var(--mainBG);
+
+  color: var(--neutral);
 }

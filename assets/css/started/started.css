@@ -4,6 +4,8 @@
   margin: 2rem auto;
 
   text-align: center;
+
+  z-index: 1;
 }
 
 .started__img{
@@ -23,7 +25,7 @@
   font-size: 1rem;
   font-weight: 400;
 
-  color: var(--neutral);
+  color: var(--text);
 }
 
 .started__button{
@@ -36,4 +38,12 @@
 
   border: 0;
   border-radius: 50px;
+}
+
+.started__bgCurvy{
+  position: absolute;
+  transform: translate(0, 145%);
+  width: 98.5vw;
+
+  z-index: -1;
 }

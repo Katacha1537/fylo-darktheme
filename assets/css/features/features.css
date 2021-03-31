@@ -1,0 +1,29 @@
+.features{
+  width: 70%;
+  margin: 10rem auto 0;
+
+  padding: 3rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.feature__img{
+  width: 83px;
+  height: 83px;
+}
+
+.features__items{
+  text-align: center;
+}
+
+.features__title{
+  font-family: 'Raleway', sans-serif;
+}
+
+.features__paragraph{
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: var(--text);
+}
