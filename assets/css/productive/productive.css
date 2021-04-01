@@ -35,6 +35,10 @@
   border-bottom: 1px solid var(--ctaBlue);
 }
 
+.productive__info--link a:hover{
+  transition: 0.5s;
+  color: var(--neutral);
+}
 
 .productive__info--link div{
   width: 10px;

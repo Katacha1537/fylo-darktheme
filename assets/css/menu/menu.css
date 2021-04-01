@@ -5,15 +5,17 @@
 }
 
 .menu__list{
+  width: 25%;
   display: flex;
-  list-style: none
-}
-
-.menu__item{
-  margin-left: 4rem;
+  list-style: none;
+  justify-content: space-between;
 }
 
 .menu__item a{
   text-decoration: none;
   color: var(--neutral)
+}
+.menu__item a:hover{
+  text-decoration: underline;
+  font-weight: 700;
 }

@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
   <link rel="stylesheet" href="./assets/css/global.css">
   <link rel="stylesheet" href="./assets/css/menu/menu.css">
@@ -11,7 +12,11 @@
   <link rel="stylesheet" href="./assets/css/features/features.css">
   <link rel="stylesheet" href="./assets/css/productive/productive.css">
   <link rel="stylesheet" href="./assets/css/depoiments/depoiments.css">
-  
+  <link rel="stylesheet" href="./assets/css/footer/footer.css">
+  <link rel="stylesheet" href="./assets/css/newsletter/newsletter.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
   <title>Fylo DarkTheme</title>
 </head>
 <body>
@@ -79,7 +84,8 @@
           <p class="productive__info--paragraph">Securely share files and folders with friends, family and colleagues,
             for live collaboration. No email attachments required.</p>
           <div class="productive__info--link">
-            <a href="#">See how Fylo wroks <div></div></a>
+            <a href="#">See how Fylo wroks 
+              <i class="fas fa-arrow-circle-right"></i></a>
           </div>
         </div>
       </section>
@@ -127,5 +133,67 @@
         </div>
       </section>
     </main>
+
+    <section class="newsletter">
+      <h2 class="newsletter__title">Get early access today</h2>
+      <p class="newsletter__paragraph">if only a minute to sign up and our free starter tler is extremely generous. if 
+        yo have any question, our support team would be happy to help you.
+      </p>
+
+      <form class="newsletter__form"action="#" method="post">
+        <input class="newsletter__form--email" type="email" name="email" id="email" placeholder="email@example.com" required>
+        <button class="newsletter__form--button">Get Started for Free</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="container">
+        <img src="./assets/icons/logo.svg" alt="logo da Fylo">
+        <div class="footer__info">
+          <div class="footer__location">
+            <i class="fas fa-map-marker-alt"></i>
+            <address class="footer__location--address">Bairro Poncho Verde 3, Rua São Cristovão, Nº804</address>
+          </div>
+          <div class="footer__contate">
+            <div class="footer__contate--align">
+              <i class="fas fa-phone-alt"></i>
+              <p class="footer__contate--info">+1-543-123-4567</p>
+            </div>
+            <div class="footer__contate--align">
+              <i class="fas fa-envelope"></i>
+              <p class="footer__contate--info">example@fylo.com</p>
+            </div>
+          </div>
+
+          <nav>
+            <ul class="footer__list">
+              <div class="footer__list--divison">
+                <li class="footer__item"><a href="#">About Us</a></li>
+                <li class="footer__item"><a href="#">Jobs</a></li>
+                <li class="footer__item"><a href="#">Press</a></li>
+                <li class="footer__item"><a href="#">Blog</a></li>
+              </div>
+              
+              <div class="footer__list--divison">
+                <li class="footer__item"><a href="#">Contact US</a></li>
+                <li class="footer__item"><a href="#">Terms</a></li>
+                <li class="footer__item"><a href="#">Privacy</a></li>
+              </div>
+            </ul>
+          </nav>
+          <div class="footer__social">
+            <a href="#"><i data-feather="facebook"></i></a>
+            <a href="#"><i data-feather="twitter"></i></i></a>
+            <a href="#"><i data-feather="instagram"></i></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <script>
+    feather.replace()
+  </script>  
 </body>
 </html>

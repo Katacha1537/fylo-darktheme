@@ -17,6 +17,10 @@
   box-sizing: border-box;
 }
 
+html{
+  
+}
+
 body{
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
@@ -35,4 +39,6 @@ header, button{
   background: var(--mainBG);
 
   color: var(--neutral);
+  
+  padding-bottom: 20rem;
 }
