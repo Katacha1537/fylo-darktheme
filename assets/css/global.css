@@ -45,7 +45,7 @@ header, button{
 }
 
 
-@media(max-width: 394px){
+@media(max-width: 768px){
   .container{
     width: 90%;
   }

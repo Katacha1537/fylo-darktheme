@@ -21,7 +21,7 @@
 }
 
 
-@media(max-width: 394px){
+@media(max-width: 768px){
   .menu__list{
     width: 55%;
   }

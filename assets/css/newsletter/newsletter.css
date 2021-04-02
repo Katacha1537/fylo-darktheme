@@ -68,7 +68,7 @@
   background: var(--ctaBlue);
 }
 
-@media(max-width: 394px){
+@media(max-width: 768px){
   .newsletter{
     width: 90%;
     margin: 5rem auto;

@@ -84,7 +84,7 @@ footer{
   font-size: 1rem;
 }
 
-@media(max-width: 394px){
+@media(max-width: 768px){
   footer img{
     width: 150px;
     padding-top: 10rem;

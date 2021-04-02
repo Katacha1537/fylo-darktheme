@@ -62,7 +62,7 @@
   top: -30px;
 }
 
-@media(max-width: 394px){
+@media(max-width: 768px){
   .depoiments{
     display: flex;
     flex-direction: column;
