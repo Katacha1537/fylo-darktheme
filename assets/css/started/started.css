@@ -1,3 +1,4 @@
+@media(max-width: 1440px){
 .started{
   width: 55%;
 
@@ -20,7 +21,8 @@
 }
 
 .started__paragraph{
-  margin-top: 1rem;
+  width: 75%;
+  margin: 1rem auto;
 
   font-size: 1rem;
   font-weight: 400;
@@ -49,8 +51,30 @@
 
 .started__bgCurvy{
   position: absolute;
-  transform: translate(0, 145%);
-  width: 98.5vw;
+  transform: translate(-1%, 160%);
+  width: 100vw;
 
   z-index: -1;
+}
+}
+
+@media(max-width: 394px){
+  .started{
+    width: 90%;
+  }
+  .started__title{
+    font-size: 2rem;
+  }
+  
+  .started__paragraph{
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .started__button{
+    width: 75%;
+  }
+  .started__bgCurvy{
+    transform: translate(1%, 420%);
+  }
 }

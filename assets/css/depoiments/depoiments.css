@@ -61,3 +61,24 @@
   left:  0px;
   top: -30px;
 }
+
+@media(max-width: 394px){
+  .depoiments{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .depoiments__quotes{
+    width: 50px;
+    left:  0px;
+    top: -30px;
+  }
+
+  .depoiments__items{
+    margin-bottom: 2rem;
+  }
+  .depoiments__items:last-child{
+    width: 91%;
+  }
+}

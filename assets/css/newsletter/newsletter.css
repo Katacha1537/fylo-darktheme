@@ -67,3 +67,27 @@
   font-weight: 400;
   background: var(--ctaBlue);
 }
+
+@media(max-width: 394px){
+  .newsletter{
+    width: 90%;
+    margin: 5rem auto;
+
+    left: 3%;
+    transform: translate(3%, -90%);
+
+    padding: 2rem 1rem;
+  }
+  .newsletter__form{
+    display: flex;
+    flex-direction: column;
+  }
+  .newsletter__form--email{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .newsletter__form--button{
+    width: 100%;
+  }
+}

@@ -17,8 +17,9 @@
   box-sizing: border-box;
 }
 
-html{
-  
+html, body{
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 body{
@@ -41,4 +42,15 @@ header, button{
   color: var(--neutral);
   
   padding-bottom: 20rem;
+}
+
+
+@media(max-width: 394px){
+  .container{
+    width: 90%;
+  }
+
+  .info{
+    padding-top: 2rem;
+  }
 }

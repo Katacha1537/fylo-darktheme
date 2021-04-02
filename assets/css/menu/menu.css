@@ -19,3 +19,14 @@
   text-decoration: underline;
   font-weight: 700;
 }
+
+
+@media(max-width: 394px){
+  .menu__list{
+    width: 55%;
+  }
+
+  .menu__img{
+    width: 90px;
+  }
+}

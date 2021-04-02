@@ -45,3 +45,18 @@
   height: 10px;
   border-radius: 50px;
 }
+
+@media(max-width: 394px){
+  .productive{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .productive__ilustration img{
+    width: 300px;
+  }
+
+  .productive__info--title{
+    font-size: 1.1rem;
+  }
+}
